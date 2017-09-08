@@ -1,0 +1,32 @@
+
+/* Open Sans*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700);
+
+/* Josefin Slab */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,300italic,400italic,700);
+
+/* Arvo */
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700);
+
+/* PT Sans */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+/* Roboto */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,500);
+
+
+.flex { display: flex; }
+.flex-vcenter { align-items: center;}
+.flex-hcenter {justify-content: center; }
+.flex-center {
+   	align-items: center;
+   	justify-content: center;
+}
+.column {
+   	-webkit-flex-direction: column; 
+  	flex-direction: column;
+}
+.row {
+   	-webkit-flex-direction: row; 
+  	flex-direction: row;
+}

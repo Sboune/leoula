@@ -1,0 +1,135 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	/*background-color: #D7DADB;*/
+}
+
+
+.container {
+	width: 100%;
+	max-width: 500px;
+}
+
+
+/*
+https://color.adobe.com/fr/KnotJustNautical-color-theme-2565165/edit/?copy=true
+*/
+.search {
+	background-color: #2C3E50;
+	height: 500px;
+}
+.titre {
+	width: 100%;
+	text-align: center;
+	font-family: "Arvo", sans-serif;
+	font-size: 3em;
+	color: #D7DADB;
+	margin-bottom: 15px
+}
+.le {
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 1.2em;
+	color: #6DBCDB;
+}
+
+.la {
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 1.2em;
+	color: #FC4349;
+}
+
+
+
+input[type="text"] {
+	display: block;
+	margin: 0;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	background: #fff;
+	padding: 10px 10px 10px 20px;
+	border: none;
+	border-bottom: solid 3px #dcdcdc;
+	border-radius: 1px;
+	transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+	outline: none;
+	border-bottom: solid 3px #6DBCDB;
+}
+
+
+/* Partie resutat*/
+
+.result {
+	display: block;
+	max-width: 70%;
+	margin: auto;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+}
+
+
+/* Button style */
+ button {
+	display: block;
+	margin: 10px auto;
+	cursor: pointer;
+	padding: 0;
+	width: 250px;
+	height: 70px;
+	border-radius: 5px;
+	background: transparent;
+	letter-spacing: 1px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Josefin Slab', sans-serif;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn-le {
+	border: 2px solid #6DBCDB;
+	color: #6DBCDB;
+}
+ .btn-le:hover {
+	background-color: #6DBCDB;
+	color: #fff;
+}
+
+.btn-la {
+	border: 2px solid #FC4349;
+	color: #FC4349;
+}
+ .btn-la:hover {
+	background-color: #FC4349;
+	color: #fff;
+}
+
+
+
+@media screen and (max-width: 760px) {
+
+
+	input[type="text"] {
+		width: 95%;
+	}
+
+	.btn {
+		flex-direction: column;
+	}
+
+}
